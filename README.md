@@ -12,6 +12,5 @@ Finally, a new model has been designed. Each of the three architectures have bee
 On testing, among all four models, viz. VGG-16, ResNet-50, Inception-v3, and the concatenated model, it has been found that the concatenated model achieved the highest Accuracy and F1-score of 85.19% and 91.18%, respectively.
 
 The high performance of the concatenated model is because the combined features may contain multiple patterns like circularity, roundness, compactness, etc.
-This was the work done during the 1st phase of this project. In the 2nd phase, we have worked on the segmentation of cancerous images into cancerous and non-cancerous regions.
 
 
