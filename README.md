@@ -1,4 +1,4 @@
-# Enhanced-Oral-Cancer-Analysis-using-Multi-Model-Fusion-and-GAN
+# Machine Learning for Healthcare
 
 ## Phase 1:
 
@@ -15,7 +15,7 @@ On testing, among all four models, viz. VGG-16, ResNet-50, Inception-v3, and the
 The high performance of the concatenated model is because the combined features may contain multiple patterns like circularity, roundness, compactness, etc.
 
 
-Phase 2:
+## Phase 2:
 
 In the 2nd phase, we have worked on the segmentation of cancerous images into cancerous and non-cancerous regions. For this task, we have used a labelled dataset of approximately 800 images. For modelling, we have used Generative Adversarial Networks (GANs), which consist of two components: a Generator and a Discriminator. We feed a real image to the Generator, and it generates a fake segmentation mask corresponding to that image. Along with this fake mask, we concatenate the real image, which serves as the fake input to the Discriminator. Now, the Discriminator receives both the fake input and the real input. The real input is actually the concatenation of the real mask and the real image. We feed both the fake input and the real input to the Discriminator, which classifies whether the fake input is indeed fake. The aim of the Generator is to produce a fake mask that is as close to the real mask as possible.
 
